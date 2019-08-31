@@ -4,7 +4,6 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import Divider from "@material-ui/core/Divider";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemAvatar from "@material-ui/core/ListItemAvatar";
@@ -13,7 +12,7 @@ import Avatar from "@material-ui/core/Avatar";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import _ from "lodash";
-import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import store from "../../store";
 
 const styles = theme => ({
@@ -37,30 +36,28 @@ const styles = theme => ({
     color: "#FF6D59"
   },
   progress: {
-    // margin: theme.spacing(0),
     position: "absolute",
     top: "4px",
     left: " 12px"
   },
-  listTitle:{
+  listTitle: {
     display: "flex",
     marginTop: "10px"
+  },
+  links: {
+    textDecoration: "none"
   }
 });
 
 function Content(props) {
   const { classes } = props;
-  
-
-  let handel = () => {
-    console.log("Hello");
-  };
 
   if (!store.getState().loading) {
     const assessment = assess => {
       let catName = assess.split("-");
       catName = _.find(
         store.getState().results.config,
+        // eslint-disable-next-line
         conf => conf.from == catName[0]
       );
 
@@ -70,66 +67,67 @@ function Content(props) {
     const chemicalElement = (chemicals, index, score, color) => {
       let chemical = _.find(
         store.getState().results.data.markers,
+        // eslint-disable-next-line
         elemen => elemen.id == chemicals.id
       );
-      console.log(color);
 
       return (
-        <ListItem
-          direction="row"
-          justify="center"
-          alignItems="center"
-          onClick={handel}
+        <Link
+          className={classes.links}
           key={index}
-          button
-          divider
+          to={`/report/${chemical.id}/${chemical.measurements[store.getState().results.historyPage].referenceId}`}
         >
-          <ListItemAvatar>
-            <div>
-              <CircularProgress
-                className={classes.progress}
-                variant="static"
-                value={Math.round(score)}
-                style={{ color }}
-              />
-              <Avatar alt="Remy Sharp" src={chemical.images[0].value} />
-            </div>
-          </ListItemAvatar>
-          <ListItemText
-            // primary={content.markers[0].name}
-            secondary={
-              <React.Fragment>
-                <Typography
-                  component="span"
-                  variant="body2"
-                  className={classes.inline}
-                  color="textPrimary"
-                >
-                  {chemical.name}
-                </Typography>
-                {/* {" — I'll be in your neighborhood doing errands thisdlashf l afskldjflkasdjflkjasd asldfkj lasdkjfla  …"} */}
-              </React.Fragment>
-            }
-          />
-          <ListItemText
-            className={classes.rightEnd}
-            secondary={
-              <React.Fragment>
-                <Typography
-                  component="span"
-                  variant="subtitle2"
-                  className={classes.inline}
-                  color="textSecondary"
-                >
-                  <span style={{ color }}>{Math.round(score)}</span>
-                  <span>/100</span>
-                  {/* {`${Math.round(score)}/100`} */}
-                </Typography>
-                {/* {" — I'll be in your neighborhood doing errands thisdlashf l afskldjflkasdjflkjasd asldfkj lasdkjfla  …"} */}
-              </React.Fragment>
-            }
-          />
-        </ListItem>
+          <ListItem
+            direction="row"
+            justify="center"
+            alignItems="center"
+            key={index}
+            button
+            divider
+          >
+            <ListItemAvatar>
+              <div>
+                <CircularProgress
+                  className={classes.progress}
+                  variant="static"
+                  value={Math.round(score)}
+                  style={{ color }}
+                />
+                <Avatar alt="Remy Sharp" src={chemical.images[0].value} />
+              </div>
+            </ListItemAvatar>
+            <ListItemText
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    component="span"
+                    variant="body2"
+                    className={classes.inline}
+                    color="textPrimary"
+                  >
+                    {chemical.name}
+                  </Typography>
+                </React.Fragment>
+              }
+            />
+            <ListItemText
+              className={classes.rightEnd}
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    component="span"
+                    variant="subtitle2"
+                    className={classes.inline}
+                    color="textSecondary"
+                  >
+                    <span style={{ color }}>{Math.round(score)}</span>
+                    <span>/100</span>
+                  </Typography>
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+        </Link>
       );
     };
     const historyList = history => {
@@ -181,7 +179,11 @@ function Content(props) {
         </Container>
 
         <List className={classes.root}>
-          {historyList(store.getState().results.history[0]).map(ele => {
+          {historyList(
+            store.getState().results.history[
+              store.getState().results.historyPage
+            ]
+          ).map(ele => {
             return ele;
           })}
         </List>

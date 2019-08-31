@@ -1,6 +1,6 @@
-import {FETCH_RESULTS, SET_LOADING} from "../actions/types";
+import {FETCH_RESULTS, SET_LOADING, HISTORY_PAGE} from "../actions/types";
 
-const initialState = {loading:true};
+const initialState = {loading:true, historyPage:0};
 
 export default function (state = initialState, action) {
     switch (action.type) {
@@ -10,6 +10,11 @@ export default function (state = initialState, action) {
                 data: action.payload,
                 config: action.config,
                 history: action.history
+              };
+        case HISTORY_PAGE:
+            return {
+                ...state,
+                historyPage: action.payload
               };
         case SET_LOADING:
             return {

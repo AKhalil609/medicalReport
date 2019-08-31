@@ -1,7 +1,6 @@
-import {FETCH_RESULTS, SET_LOADING} from "./types";
+import {FETCH_RESULTS, SET_LOADING, HISTORY_PAGE} from "./types";
 import data from "../data/report.json"
 import config from "../data/config.json"
-import _ from "lodash";
 
 export const fetchResults = () => async dispatch =>{
   data.healthBenefits = await sortObjArray(data.healthBenefits, "scoreHistory");
@@ -25,14 +24,6 @@ export const fetchResults = () => async dispatch =>{
     return {...element, categories}
   })
   let catKeys = Object.keys(history[0].categories)
-  console.log("catKeys: ", catKeys);
-  
-  let latestMeasuerments = data.markers.map((element)=>{
-    element.measurements[0].id = element.id
-    return element.measurements[0]
-  })
-
-  console.log("latestMeasuerments: ", latestMeasuerments);
 
   let tmm = (measurement, diff) =>{
     let bb= measurement.reduce((arr,element)=>{
@@ -43,25 +34,25 @@ export const fetchResults = () => async dispatch =>{
     },[])
     return bb
   }
-
-  let latestGroup = catKeys.reduce((acc, val)=>{
-    
-    let diff = val.split("-");
-    // acc[val]= latestMeasuerments.reduce((arr,element)=>{
-    //   if (parseInt(diff[0])< element.score && element.score <= parseInt(diff[1])) {
-    //     arr.push(element)
-    //   }
-    //   return arr
-    // },[])
-    acc[val] = tmm(latestMeasuerments, diff)
-    return acc
-  },{})
-
   
 
-  console.log("latestGroup: ", latestGroup);
+  history.forEach((element,index) => {
+    let lm = data.markers.map((element2)=>{
+      element2.measurements[index].id = element2.id
+      return element2.measurements[index]
+    })
 
-  history[0].categories = latestGroup;
+    let latestGroup = catKeys.reduce((acc, val)=>{
+    
+      let diff = val.split("-");
+      acc[val] = tmm(lm, diff)
+      return acc
+    },{})
+
+    history[index].categories = latestGroup;
+  });
+
+  
 
   await dispatch({
       type: FETCH_RESULTS,
@@ -80,6 +71,14 @@ export const setLoading = () => async dispatch =>{
     payload: false
   });
   
+}
+
+export const setPage = (pageNumber) =>async dispatch =>{
+  
+  await dispatch({
+    type: HISTORY_PAGE,
+    payload: pageNumber
+  });
 }
 
 const sortObjArray = async (list, key) =>{

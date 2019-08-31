@@ -9,7 +9,6 @@ export class Results extends Component {
     async componentDidMount(){
         await this.props.fetchResults();
         await this.props.setLoading();
-        console.log("done");
         
     }
 

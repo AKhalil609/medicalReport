@@ -7,6 +7,8 @@ import Hidden from '@material-ui/core/Hidden';
 import Navigator from './Navigator';
 import Content from './Content';
 import Header from './Header';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Details from './Details'
 
 let theme = createMuiTheme({
   palette: {
@@ -153,6 +155,7 @@ function Paperbase(props) {
 
   return (
     <ThemeProvider theme={theme}>
+      <Router>
       <div className={classes.root}>
         <CssBaseline />
         <nav className={classes.drawer}>
@@ -171,10 +174,15 @@ function Paperbase(props) {
         <div className={classes.appContent}>
           <Header onDrawerToggle={handleDrawerToggle} />
           <main className={classes.mainContent}>
-            <Content data={props.data.results}/>
+            
+              <Switch>
+                <Route exact path="/" component={Content}/>
+                <Route path="/report/:id/:ref" component={Details}/>
+              </Switch>
           </main>
         </div>
       </div>
+      </Router>
     </ThemeProvider>
   );
 }
