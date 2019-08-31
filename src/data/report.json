@@ -1,0 +1,682 @@
+{
+  "markers": [
+    {
+      "id": "246",
+      "name": "Selenium",
+      "short": "Se",
+      "type": "element",
+      "info": "<h2>The Science</h2>\n<p>Found in small amounts in the body, selenium is an essential mineral with antioxidant properties. It helps the body fight “free radicals”, molecules that cause DNA damage and cell aging. If you have a well-balanced diet that includes Brazil nuts,  fish, shellfish, beef, and chicken, you’re likely to have normal levels of this mineral. Risk factors for low selenium including smoking as well as drinking alcohol.</p>\n<p>In addition to working as an antioxidant, selenium also contributes to the functioning of the immune system. Some studies have shown that people with certain types of cancer have low levels of selenium, though scientists are still unclear about whether this is a cause of or symptom of cancer.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Selenium works as an antioxidant, giving it the ability to fight “free radicals” that cause DNA damage and cell aging.</p>\n<p>Given its antioxidant properties, selenium may boost physical appearance and beauty by preventing some of the cell damage that accelerates the aging process.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "ok",
+          "referenceId": "8UZ1FQ100I",
+          "score": 20,
+          "measured": {
+            "value": 1.16,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 50,
+          "measured": {
+            "value": 2,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 71.845004436757,
+          "measured": {
+            "value": 1.39,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 50,
+          "measured": {
+            "value": 1.36,
+            "unit": "µmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/246_Selenium/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "251",
+      "name": "Zinc",
+      "short": "Zn",
+      "type": "element",
+      "info": "<h2>The Science</h2>\n<p>Zinc is one of 24 micronutrients needed for survival. An extremely important factor in the proper functioning of the hormone, enzyme, and immune systems, zinc is essential for the activity of over 300 enzymes involved in gene expression and cell proliferation. It carries anti-oxidant properties and regulates the immune system.</p>\n<p>High levels of zinc can be naturally found in meat, eggs, legumes, and fish, particularly in shellfish such as oysters. This is why many vegetarians/vegans are susceptible to zinc deficiencies. Athletes are also known to have lower zinc levels, because sweating tends to lower zinc levels. So if you’re in either category, you want to make sure you get enough zinc. For men deficient in zinc, increasing zinc can up your testosterone levels!</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Zinc is an important factor in the proper functioning of the immune system. It carries antioxidant and immune-boosting properties.</p>\n<p>Interestingly, normal to optimal levels of zinc is correlated with beauty as well. It’s thought to be therapeutic for those who suffer from acne by reducing the migration of immune cells to the skin. </p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "ok",
+          "referenceId": "8UZ1FQ100I",
+          "score": 20,
+          "measured": {
+            "value": 45.12,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 20,
+          "measured": {
+            "value": 80.91,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 41.04779131864487,
+          "measured": {
+            "value": 97.89,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 20,
+          "measured": {
+            "value": 41.14,
+            "unit": "µmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/251_Zinc/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "910",
+      "name": "Vitamin B12",
+      "short": "B_12",
+      "type": "vitamin",
+      "info": "<h2>The Science</h2>\n<p>Vitamin B12, also known as Cobalamin, is one of 8 B vitamins which help the body convert food into fuel to produce energy, and metabolize fats and proteins. B vitamins also assist in the proper functioning of the immune system. Animal foods like fish, dairy, eggs, and beef, are the only natural sources of vitamin B12.</p>\n<p>Optimal levels of vitamin B12 may help boost cardiovascular health and cognitive performance. Vitamin  B12 is also an important mineral for maintaining healthy nerve cells, and helps produce DNA and RNA, the body’s genetic material. Those at risk for vitamin B12 deficiency include vegetarians/vegans, older people, and those suffering from diabetes.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Vitamin B12 deficiencies are associated with an increased risk of Cardiovascular Disease. Vitamin B12 helps lower homocysteine levels in the blood, an increase of which is connected with CVD.</p>\n<p>Low levels of vitamin B12 are associated with the onset of neurodegenerative diseases and cognitive impairment. Increasing vitamin B12 to normal or optimal levels may boost Cognitive Performance.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "error / not available",
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 50,
+          "measured": {
+            "value": 0.02,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "error / not available",
+          "referenceId": "V9AD5G1001"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "error / not available",
+          "referenceId": "XQVHPV100G"
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/910_Vitamin%20B12/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "235",
+      "name": "Omega 3",
+      "short": "Ω_3",
+      "type": "fatty acid",
+      "info": "<h2>The Science</h2>\n<p>Omega-3 fatty acids are essential fats, which means the body cannot produce them on its own but must get them from nutritional sources. Foods high in Omega-3s include fatty fish like salmon and tuna, flax seeds, walnuts, and leafy green vegetables. Omega-3 fatty acids are integral parts of cell membranes throughout the body and bind to cell receptors that regulate genetic function. They’re crucial for brain function as well as normal growth and development.</p>\n<p>Offering a wide variety of benefits for physical and cognitive health, Omega-3 fatty acids are primarily known for their beneficial effects on Cardiovascular health. Omega-3s reduce inflammation and may thus lower the risk of Cardiovascular Disease, certain types of cancer, as well as arthritis. Cognitive improvements in relation to age-related cognitive decline, depression, mental disorders like schizophrenia, have also been observed with increased Omega-3 uptake. So eat your fish at least twice a week, keeping in mind that the right Omega-3 to Omega-6 fatty acid ratio is also an important target for improving health.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Omega-3 fatty acids may offer benefits for Cardiovascular health. A large number of studies have shown that increased Omega-3 intake is associated with a lower risk of Cardiovascular Disease.</p>\n<p>Omega-3 fatty acids may improve physical performance by providing a source of energy for cells in the body.</p>\n<p>Cognitive performance may also be enhanced with higher Omega-3 intake. Research suggests that Omega-3 intake may improve symptoms of depression, schizophrenia, and age-related cognitive decline.</p>\n<p>Given its anti-inflammatory properties, Omega-3 fatty acids may aid in the functioning of the immune system. Those suffering from inflammatory or autoimmune diseases may especially benefit from higher Omega-3 intake.</p>\n<p>Finally, Omega-3 fatty acids may improve physical appearance through its beneficial effects on overall physical and cognitive health.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "ok",
+          "referenceId": "8UZ1FQ100I",
+          "score": 50,
+          "measured": {
+            "value": 4.42,
+            "unit": "%"
+          }
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 90,
+          "measured": {
+            "value": 6.09,
+            "unit": "%"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 66.19047618660001,
+          "measured": {
+            "value": 4.65,
+            "unit": "%"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 50,
+          "measured": {
+            "value": 3.23,
+            "unit": "%"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/235_Omega%203/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "234",
+      "name": "Copper",
+      "short": "Cu",
+      "type": "element",
+      "info": "<h2>The Science</h2>\n<p>Copper is an essential mineral commonly found in the food supply as well as drinking water. This vital mineral is needed for the body to produce energy, and though it plays a number of important bodily functions, relatively low amounts of copper are required for optimal health. At high concentrations, copper can be inherently toxic.</p>\n<p>In addition to stimulating the immune system, copper is an important component of the antioxidant Superoxide Dismutase (SOD), which means it plays a vital role in fighting “free radicals” that cause cell and DNA damage. But higher levels of copper are also found in people suffering from unipolar depression as well as Alzheimer’s disease, attesting to this mineral’s multifaceted role in health.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Copper is an important factor in promoting beauty, as it plays a vital role in the formation of collagen, a key component of healthy bones and connective tissue. Moreover, it is involved in the proliferation of Dermal Papilla Cells (DPCs), special types of cell that promote hair growth.</p>\n<p>Copper is essential for catalyzing oxidation-reduction (REDOX) reactions crucial for a number of immune functions.</p>\n<p>Finally, copper is a vital component of the antioxidant Superoxide Dismutase (SOD), which gives it the important role of fighting free radicals that cause DNA damage and cell aging.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "ok",
+          "referenceId": "8UZ1FQ100I",
+          "score": 20,
+          "measured": {
+            "value": 7.71,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 20,
+          "measured": {
+            "value": 9.6,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 99.54304523379602,
+          "measured": {
+            "value": 15.42,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 50,
+          "measured": {
+            "value": 11.17,
+            "unit": "µmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/234_Copper/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "244",
+      "name": "Magnesium",
+      "short": "Mg",
+      "type": "element",
+      "info": "<h2>The Science</h2>\n<p>Magnesium is an essential mineral required for the activity of every organ in the body. Boasting a number of crucial functions in promoting and maintaining a healthy body, magnesium is involved in producing a large number of enzymes, fueling the body with energy, and regulating levels of a range of nutrients.</p>\n<p>A mineral found in leafy green vegetables, nuts, and legumes, magnesium is present at low levels among many people. Signs of deficiency include anxiety, irritability, sleep disorders, low blood pressure, among many others. People who suffer from diabetes, Irritable Bowel Syndrome, kidney disease, and hyperthyroidism are especially susceptible to magnesium deficiencies. Having enough of this vital mineral is crucial to a healthy cardiovascular system a well as to optimal physical and cognitive performance.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Magnesium is essential to Cardiovascular health. High magnesium intake has been shown to be associated with a lower risk of Cardiovascular Disease and sudden cardiac death, as well as the maintenance of  a normal heart rhythm.</p>\n<p>An important component in the production of ATP, the body’s main source of energy, normal to optimal magnesium levels may boost physical performance.</p>\n<p>Cognitive impairments like ADHD and depression have been shown to be linked to lower levels of magnesium, making this mineral a possible booster of cognitive performance as well.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "ok",
+          "referenceId": "8UZ1FQ100I",
+          "score": 20,
+          "measured": {
+            "value": 0.88,
+            "unit": "mmol/L"
+          }
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 90,
+          "measured": {
+            "value": 1.54,
+            "unit": "mmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 68.92636774989717,
+          "measured": {
+            "value": 1.73,
+            "unit": "mmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 20,
+          "measured": {
+            "value": 1,
+            "unit": "mmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/244_Magnesium/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "249",
+      "name": "Vitamin D",
+      "short": "D_3",
+      "type": "vitamin",
+      "info": "<h2>The Science</h2>\n<p>The sunny vitamin D3 is a fat-soluble nutrient critical for human survival and overall well-being. Our bodies naturally produce vitamin D3 from cholesterol, but only when adequately exposed to sunlight. This is why most of us simply don’t enjoy optimal levels of the nutrient. Plus, the more we age, the less our skin is able to synthesize it.</p>\n<p>Calcifiedol, a prehormone produced in the liver, is used to determine how much vitamin D3 you have. If you don’t get enough sunlight, and/or if you don’t eat enough fish, eggs, or fortified dairy products, you may be vitamin D3 deficient. Considering the range of health benefits associated with vitamin D3, you should then consider supplementation.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>Who doesn’t want to have healthy bones and be in a position to avoid osteoporosis? Vitamin D3 is essential for bone health as it’s a necessary factor in calcium and phosphorus absorption.</p>\n<p>But there’s more. Vitamin D3 is also important for improved immune and cognitive function. And by increasing HDL, the “good” cholesterol, it decreases the risk of Cardiovascular Disease.</p>\n<p>Last but not least, supplementation with vitamin D3 can reduce the risk of certain cancers, diabetes, and multiple sclerosis. It’s also associated with an increase in testosterone!</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "error / not available",
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 20,
+          "measured": {
+            "value": 10.92,
+            "unit": "nmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 10.0387365137138,
+          "measured": {
+            "value": 35.1,
+            "unit": "nmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 20,
+          "measured": {
+            "value": 16.9,
+            "unit": "nmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/249_Vitamin%20D/icon.png"
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "name": "Vitamin E",
+      "short": "E",
+      "type": "vitamin",
+      "info": "<h2>The Science</h2>\n<p>Vitamin E is a fat-soluble antioxidant vitamin, and it’s a term referring to 8 molecules that together make up this important vitamin. Although the majority of its benefits are reaped by simply avoiding a deficiency, supplementation may sometimes offer additional benefits. For example, vitamin E is especially important for the elderly, who may suffer bone fractures as a result of vitamin E deficiencies.</p>\n<p>A well-balanced diet may prevent a vitamin E deficiency, especially if the diet includes leafy green vegetables like spinach and broccoli, nuts like almonds and peanuts, sunflower seeds, as well as foods fortified with vitamin E. As vitamin E is a powerful antioxidant, normal levels are particularly important for the body to fight “free-radicals”, substances which can cause damage to cells and DNA.</p>\n<p></p>\n<h2>Health Benefits</h2>\n<p>A powerful antioxidant, vitamin E may offer protection against cellular and DNA damage. A deficiency in vitamin E may thus be a contributing factor to an early onset of the aging process.</p>\n",
+      "textColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "measurements": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "status": "error / not available",
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "status": "ok",
+          "referenceId": "A6HORG1005",
+          "score": 50,
+          "measured": {
+            "value": 20.9,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "status": "ok",
+          "referenceId": "V9AD5G1001",
+          "score": 75.2451708671471,
+          "measured": {
+            "value": 13.93,
+            "unit": "µmol/L"
+          }
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "status": "ok",
+          "referenceId": "XQVHPV100G",
+          "score": 50,
+          "measured": {
+            "value": 7.89,
+            "unit": "µmol/L"
+          }
+        }
+      ],
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/markers/250_Vitamin%20E/icon.png"
+        }
+      ]
+    }
+  ],
+  "healthBenefits": [
+    {
+      "id": "663",
+      "name": "Cardiovascular Health",
+      "info": "<h2>The Science</h2><p>The health of your heart and arteries is crucial for a long and good life. Cardiovascular Disease, a condition that develops as a result of fatty plaque buildup on arterial walls, can lead to life-threatening events like heart attack and stroke. When LDL cholesterol particles and/or calcium stick to artery walls, this shrinks the diameter of the artery, thus preventing blood flow to the heart and other organs.</p><p>But it doesn’t stop there. Clogged arteries also lead to a rise in blood pressure, which in turn causes further damage to the arteries. While some people may be genetically predisposed to CVD, most people suffer from the disease due to reversible lifestyle factors like smoking, being overweight and sedentary, as well as consuming too much alcohol. What’s more, eating too much saturated fat in the form of processed and red meats can increase the chance of CVD. So make sure to avoid these unhealthy lifestyle factors and replace saturated with polyunsaturated fats to have a healthy heart and a good life!</p><p></p><h2>Nutrients important for your heart</h2><h3>Omega-3</h3><p>Fish oil, rich in Omega 3 fatty acids, increases your HDL cholesterol levels and thus helps balance your Omega 3 to Omega 6 fatty acid ratio, which is important for protection against CVD. Fish oil also reduces triglyceride levels, another notable factor in guarding against CVD.</p><h3>Vitamin B9</h3><p>You may want to increase your vitamin B9 intake if you want to reduce the likelihood of CVD. Vitamin B9 can reduce homocysteine levels, an excess of which can be detrimental for heart health. Blood flow can also increase with higher vitamin B9 intake.</p><h3>Vitamin D3</h3><p>Lower vitamin D3 levels can increase CVD risk, since lower vitamin D3 is linked to arterial stiffness and higher blood pressure. An increase in vitamin D3 levels can prevent arterial plaque formation and lower BP.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/663_Cardiovascular%20Health/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 36.666666666666664,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.142Z",
+          "score": 58.96551724137931,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 46.31578947368421,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 46.91796675008269,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "664",
+      "name": "Physical Performance",
+      "info": "<h2>The Science</h2><p>Physical performance is a crucial component of physical health for both athletes and non-athletes alike. The body requires energy to perform any movement or activity, including all metabolic processes such as muscle contraction, food digestion, brain and nerve function, etc. Every single cell of the body needs Adenosine Triphosphate (ATP) to store and produce energy. ATP stores and transfers energy between cells, and when it breaks down into Adenosine Diphosphate (ADP) and Phosphate, it liberates energy necessary for all metabolic processes.</p><p>Often a sign of age-related physical decline, poor physical performance is detrimental to overall health and quality of life, as it reflects compromised muscle and/or bone function. But optimal physical performance is also a crucial factor of athletic performance. Optimal muscle and bone function may increase athletic speed performance, recovery, endurance, and strength. Many nutrients may boost physical performance by improving energy metabolism as well as muscle and bone function.</p><p></p><h2>Nutrients important for physical performance</h2><h3>Vitamin D3</h3><p>Vitamin D3, an essential nutrient involved in calcium and phosphorus absorption, is critical for bone health. Normal to optimal vitamin D3 levels may improve optimal bone and muscle function.</p><h3>Vitamin B1 &#038; B2</h3><p>Vitamins B1 and B2, as well as iron and magnesium, are involved in the production of ATP, the body’s main source of energy. A deficiency in any of these vital nutrients may impair energy to meet metabolic needs, thereby affecting athletic performance. It may also amplify the negative effects of strenuous exercise, such as oxidative stress.</p><h3>Omega-3</h3><p>Omega-3 fatty acids are important anti-inflammatory fats important in fighting oxidative stress. For athletes undergoing strenuous exercise, Omega 3-s may attenuate inflammation and promote overall health as well as improve athletic performance.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/664_Physical%20Performance/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 30.714285714285715,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "score": 61.05263157894737,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 27.894736842105264,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 46.91796675008269,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "665",
+      "name": "Cognitive Performance",
+      "info": "<h2>The Science</h2><p>Segmented into a number of distinct yet related abilities, such as perception, memory, attention, motor skills, executive functions such as decision-making, etc., cognitive performance is an indicator of overall mental health and quality of life.It marks the extent to which your cognitive abilities allow you to carry out any task, from the simplest to the most complex. Poor cognitive performance may impair a variety of cognitive tasks, such as quick and logical thinking, simple or complex movements requiring spatial processing and coordination, problem-solving and decision-making.</p><p>People tend to experience a certain level of cognitive decline as they age, but for some, the decline is more noticeable and can affect overall health and quality of life. For some, Mild Cognitive Impairment (MCI) may further deteriorate and lead to Alzheimer’s Disease or dementia. While there are multiple contributing factors to cognitive decline, including stress, loneliness, and excess body weight, suboptimal nutrition in combination with chronic inflammation and oxidative stress may play a role in the onset of cognitive decline.</p><p></p><h2>Nutrients important for cognitive performance</h2><h3>Vitamin D3</h3><p>Vitamin D3 may boost cognitive performance and mood, especially for those suffering from a form of winter depression called Seasonal Affective Disorder. Moreover, both Parkinson’s and Alzheimer’s diseases, marked by noticeable cognitive decline in old age, have been associated with poor vitamin D intake among patients.</p><h3>Vitamin B6</h3><p>An essential mineral in the making of neurotransmitters, vitamin B6 may enhance cognitive performance by alleviating symptoms of depression, ADHD, and other cognitive disorders.</p><h3>Vitamin B9</h3><p>By offering protection for neurons in the brain, vitamin B9 may be associated with reduced cognitive decline, depression, and increased cognitive performance.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/665_Cognitive%20Performance/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 38.75,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "score": 59.25925925925926,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 49.411764705882355,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 48.15720251979556,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "666",
+      "name": "Cell Aging",
+      "info": "<h2>The Science</h2><p>Let’s be clear from the get-go: cellular aging is a natural process that occurs with growing age. As you age during adulthood, all your cells, tissues, and organs undergo aging changes, and all vital organs lose some of their function. Many changes take place during adulthood that are likely involved in the process of cellular aging, including growth in cellular size and the decreased ability of cells to divide and multiply, waste product buildup in tissue, increase of fatty substances within cells, loss of tissue mass and increase in connective tissue stiffness.</p><p>Scientists are still searching for an underlying process that may be responsible for these different changes. Although they’ve yet to reach full agreement, it seems that the process of oxidative stress, or “free radical” damage to DNA, may be the culprit. What’s important to know is that sometimes, these changes can be so pronounced as to cause the onset of age-related diseases, from osteoporosis to Alzheimer’s. Sustained oxidative stress during adulthood may even trigger the early onset of age-related physical and cognitive decline. Appropriate lifestyle factors may thus slow down the onset of and protect against age-related diseases.</p><p></p><h2>Nutrients important for cell aging</h2><h3>Vitamin D3</h3><p>Vitamin D3, essential in the absorption of calcium and phosphorus, is crucial for promoting and maintaining bone health, thus reducing the risk of osteoporosis.</p><h3>Vitamin E, Vitamin C &#038; Selenium</h3><p>Vitamin E, vitamin C, and selenium are all powerful antioxidant that may offer protection against cellular and DNA damage. A deficiency in either of these important nutrients may be associated with an early onset of age-related decline.</p><h3>Vitamin B9</h3><p>Carrying powerful antioxidant properties, vitamin B9 may offer protection against “free radicals” that cause DNA and cellular damage. It also aids in the production of DNA and RNA, the body’s genetic material.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/666_Cell%20Aging/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 35,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.142Z",
+          "score": 48.26086956521739,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 42.5,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 55.82984700105446,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "667",
+      "name": "Immune System",
+      "info": "<h2>The Science</h2><p>An integrated system of cells, tissues, and organs, the immune system protects the body against infection and disease. Specifically, the immune system fights against bacteria, viruses, fungi, as well as the development of cancer. It must recognize foreign invaders and abnormal cells to generate the immune response in the form of inflammation. For this reason, the immune system can be a double-edged sword, as inflammation can cause damage to tissues while fighting against foreign invaders.</p><p>Given that nutritional status can affect the actions of the immune system, it is not surprising that immunology and nutrition are tightly connected. Malnutrition is the most common cause of immunodeficiency in the world, and chronic malnutrition the leading cause of death. But malnutrition is not the only factor affecting immune function. Poor overall nutrition can lead to micronutrient deficiencies that may compromise immune system function, making nutrition an important aspect of maintaining a healthy immune system.</p><p></p><h2>Nutrients important for immune system</h2><h3>Vitamin D</h3><p>Vitamin D is recognized as a powerful modulator of the immune system. It has been implicated in the development of a number of autoimmune diseases, including type 1 diabetes, multiple sclerosis, and rheumatoid arthritis</p><h3>Vitamin C</h3><p>A highly effective antioxidant, vitamin C may protect the body against “free radicals” and oxidative stress generated by immune cells to kill pathogens.</p><h3>Vitamin E</h3><p>Another powerful antioxidant, vitamin E protects cell membranes from “free radicals” generated as part of the immune response.</p><h3>Zinc</h3><p>Zinc is crucial for the development of cells that mediate immune function. Deficiencies in zinc may lead to compromised immune responses, making dietary intake of this mineral an essential factor for a healthy immune system.</p><h3>Vitamin B6</h3><p>Your immune system may become impaired if you have a vitamin B6 deficiency. Increased vitamin B6 intake may restore impaired immune functions.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/667_Immune%20System/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 31.25,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "score": 46.25,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 38.75,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 34.92338982473795,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "668",
+      "name": "Beauty",
+      "info": "<h2>The Science</h2><p>Beauty, we all want it and strive to keep it, even as age gradually takes its toll on our bodies. It is no secret that aging changes physical appearance in ways that are often undesirable. Increasing inflammation along with the decreased ability of our immune system to ward off foreign invaders makes us more susceptible not just to disease, but to changes in our physical makeup as well. The accumulation of oxidative stress throughout the lifespan, and the subsequent damage to cells and DNA, is another contributing factor to changing physical appearance.</p><p>But other than the onset of age-related disease, what are some of these changes we so often worry about? Wrinkles, thinning skin, changing skin color and thickness, loss of muscle tone, shrinking jaws, and many others, are changes that commonly occur as we get older. But it’s important to remember that although these changes are “natural” products of aging, they can also be caused by disease states we may be able to control. We can also certainly postpone the onset of these changes if we make the appropriate lifestyle choices, including following a balanced macronutrient (carbs, protein, fats) and micronutrient intake.</p><p></p><h2>Nutrients important for beauty</h2><h3>Zinc</h3><p>Normal to optimal levels of zinc is correlated with increased beauty. Zinc is thought to be therapeutic for those who suffer from acne by reducing the migration of immune cells to the skin.</p><h3>Omega-3</h3><p>Omega-3 fatty acids may improve physical appearance due to their beneficial effects on overall physical and cognitive health.</p><h3>Copper</h3><p>Copper plays an important role in the formation of collagen, a key component of healthy bones and connective tissue. In addition, copper is also involved in the formation of Dermal Papilla Cells (DPCs), special types of cell that promote hair growth.</p><h3>Selenium</h3><p>Due to its antioxidant properties, selenium may boost physical appearance and beauty by preventing some of the cell damage that accelerates the aging process.</p><h3>Vitamin C</h3><p>Vitamin C may be a contributing factor to beauty by repairing and maintaining bones and teeth, as well as producing skin.</p>",
+      "textColor": "#ffffff",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/668_Beauty/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 29.375,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.141Z",
+          "score": 47.5,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 40.625,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 65.6472179086177,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    },
+    {
+      "id": "857",
+      "name": "Baze Score",
+      "info": "",
+      "textColor": "#353535",
+      "backgroundColor": "#c3cadc",
+      "images": [
+        {
+          "key": "icon",
+          "value": "https://sanalytica-assets.storage.googleapis.com/assets/benefits/857_Baze%20Score/icon.png"
+        }
+      ],
+      "scoreHistory": [
+        {
+          "date": "2017-04-19T12:17:00.000Z",
+          "score": 33.62599206349206,
+          "referenceId": "8UZ1FQ100I"
+        },
+        {
+          "date": "2017-05-09T16:35:53.142Z",
+          "score": 53.54804627413389,
+          "referenceId": "A6HORG1005"
+        },
+        {
+          "date": "2017-06-08T13:14:00.000Z",
+          "score": 40.91621517027864,
+          "referenceId": "XQVHPV100G"
+        },
+        {
+          "date": "2017-07-18T15:08:00.000Z",
+          "score": 49.73226512572851,
+          "referenceId": "V9AD5G1001"
+        }
+      ]
+    }
+  ]
+}

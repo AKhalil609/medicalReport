@@ -1,0 +1,20 @@
+[
+  {
+    "from": 0,
+    "to": 40,
+    "color": "#FF6D59",
+    "assessment": "Off track"
+  },
+  {
+    "from": 40,
+    "to": 80,
+    "color": "#6B76D2",
+    "assessment": "Normal"
+  },
+  {
+    "from": 80,
+    "to": 100,
+    "color": "#58D3E6",
+    "assessment": "Optimal"
+  }
+]
