@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `docker build -t <anyname> .`
+
+Builds a docker image
+
+### `docker run -it -p 8080:80 <imagename>`
+
+Runs the app in a container using an optimized prodution build and port 8080 is exposed locally
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
