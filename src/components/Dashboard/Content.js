@@ -64,6 +64,14 @@ function Content(props) {
       return { assessment: catName.assessment, color: catName.color };
     };
 
+     /**
+ * Takes the markers object to render element of the spicific date
+ * @param {Array} chemicals - the elements for all tests from the same date.
+ * @param {string} score - the score of the test.
+ * @param {string} color - the hash of the color.
+ * @returns {JSX.Element} - Rendered component.
+ */
+
     const chemicalElement = (chemicals, index, score, color) => {
       let chemical = _.find(
         store.getState().results.data.markers,
@@ -130,6 +138,7 @@ function Content(props) {
         </Link>
       );
     };
+    // renders a list of elements with score
     const historyList = history => {
       let _history = { ...history };
       let _list = Object.keys(_history.categories).map((element, index) => {
