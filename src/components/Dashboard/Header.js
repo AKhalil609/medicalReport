@@ -70,6 +70,7 @@ function Header(props) {
         position="static"
         elevation={0}
       >
+        {/* {create the date tabs} */}
         <Tabs value={props.data.results.historyPage} textColor="inherit">
           {props.data.results.history.map((history, index)=>{
             return (<Tab key={index} textColor="inherit" label={moment(history.date).format("MMMM YYYY")} onClick={()=>changePage(index)}/>)

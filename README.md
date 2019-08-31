@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Some technnologies that were used for this project are React, Redux, React-router, material-ui and Docker.
+
+Although the data is coming from a .json file inside the project, the project was built as if the data was being requested from the server and also for there was nothing hardcoded regarding the ranges of the categories for the test scores so if any value changes inside on the config.json file the dashboard will be working normally.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -10,7 +16,9 @@ Builds a docker image
 
 ### `docker run -it -p 8080:80 <imagename>`
 
-Runs the app in a container using an optimized prodution build and port 8080 is exposed locally
+Runs the app in a container using an optimized prodution build and port 8080 is exposed locally<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
 
 ### `npm start`
 

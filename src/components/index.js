@@ -5,9 +5,11 @@ import { fetchResults, setLoading } from "../actions/resultsActions";
 import List from "./Dashboard";
 
 export class Results extends Component {
-
+    // life cycle method
     async componentDidMount(){
+        // puts the data in the store
         await this.props.fetchResults();
+        // sets loading = false
         await this.props.setLoading();
         
     }

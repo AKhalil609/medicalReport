@@ -1,5 +1,6 @@
 import {FETCH_RESULTS, SET_LOADING, HISTORY_PAGE} from "../actions/types";
 
+// init state
 const initialState = {loading:true, historyPage:0};
 
 export default function (state = initialState, action) {

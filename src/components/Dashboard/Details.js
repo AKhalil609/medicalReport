@@ -53,9 +53,9 @@ function Details(props) {
   const { classes } = props;
 
   if (!store.getState().loading) {
-    let markers = store.getState().results.data.markers;
-    let marker = _.find(markers, o => o.id === props.match.params.id);
-    let measurement = marker.measurements[store.getState().results.historyPage];
+    let markers = store.getState().results.data.markers; // get markers from store
+    let marker = _.find(markers, o => o.id === props.match.params.id); // match marker using the id provied in the url
+    let measurement = marker.measurements[store.getState().results.historyPage]; // used to know which date the user is  viewing
 
 
     return (

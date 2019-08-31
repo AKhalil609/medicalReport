@@ -49,10 +49,13 @@ const styles = theme => ({
   }
 });
 
+
+// The list of elements
 function Content(props) {
   const { classes } = props;
-
+  
   if (!store.getState().loading) {
+    // to get the name and the color of the assessment (the rang of scores in the config file)
     const assessment = assess => {
       let catName = assess.split("-");
       catName = _.find(

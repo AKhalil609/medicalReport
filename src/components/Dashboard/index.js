@@ -144,7 +144,7 @@ const styles = {
     background: '#eaeff1',
   },
 };
-
+// the main function for the dashboard and it has react router
 function Paperbase(props) {
   const { classes } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);

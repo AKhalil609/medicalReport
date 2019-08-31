@@ -54,7 +54,7 @@ export const fetchResults = () => async dispatch =>{
     return result
   }
   
-  // loops over the history array and add categories to the history array that is more broken down
+  // loops over the history in the array and add categories to the history array that so it can easier to redner them in the list based on the date and score
   history.forEach((element,index) => {
     let lm = data.markers.map((element2)=>{
       element2.measurements[index].id = element2.id
